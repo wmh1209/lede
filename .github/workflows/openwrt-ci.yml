@@ -60,7 +60,7 @@ jobs:
           git pull openwrt master
           git remote -v
            
-      - name: 自定义插件主题。
+      - name: 自定义插件
         run: |
           cd package
           mkdir openwrt-packages
